@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>From</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/from.css">
-    <body>
-        <div class="container">
-            <header> 
-                <div class="top-right">
+    <style>
+        table, th, td {
+          border: 1px solid #daaca7;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 5px;
+          text-align: left;    
+        }
+        </style>
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=936189533864426&autoLogAppEvents=1"
+        nonce="R2t3Dp1z"></script>
+    <div class="container">
+        <header>
+            <div class="top-right">
                 <form>
                     <div class="center"></div>
                     <input type="text" name="search" placeholder="Search..">
                 </form>
-                </div>
-                <div class="company-info">
-                    <h1 style="color: white;">Thuốc nhỏ mắt</h1>
-                    <h3 styles=""; font-size:20px;>Bảo vệ đôi mắt của bạn</h3> 
-                </div>
-            </header>
-            <nav class="menu">
-                <ul>
+            </div>
+            <div class="company-info">
+                <h1 style="color: white;">Thuốc nhỏ mắt</h1>
+                <h3 styles="" ; font-size:20px;>Bảo vệ đôi mắt của bạn</h3>
+            </div>
+        </header>
+        <nav class="menu">
+            <ul>
                 <li><a href="">Đăng nhập</a></li>
                 <li><a href="">Đăng ký</a></li>
                 <li><a href="index.html">Trang chủ</a></li>
-                <li><a href="trandau.html">Sản phẩm</a></li>
                 <li>
                     <a href="#">Liên hệ</a>
                     <ul>
@@ -34,42 +50,53 @@
                 <li><a href="tygia.html">Công ty</a></li>
                 <li><a href="#">Hỏi đáp</a></li>
                 <li><a href="tintuc.html">Tin Tức</a></li>
-                </ul>
-            </nav>
-            <article>
-                <h3>Chi tiết sản phẩm</h3>
-                <div class="detail">
-                    <div class="detail-image">
-                        <img src="./image/hong.png" alt=""/>
-                    </div>
-                    <div class="detail-content">
-                        <p>Xuất xứ: Pháp</p>
-                        <p>Xuất xứ: Pháp</p>
-                        <p>Xuất xứ: Pháp</p>
+            </ul>
+        </nav>
+        <article>
+            <section>
+                <div class="flex-container">
+                    <h3>Chi tiết sản phẩm</h3>
+                    <div class="detail">
+                        <div class="detail-image">
+                            <img src="./image/hong.png" alt="" />
+                            <div class="fb-like" data-href="https://ddthuong.github.io/ddth-assignment-final/"
+                                data-width="" data-layout="box_count" data-action="like" data-size="small"
+                                data-share="true"></div>
+                        </div>
+                        <div class="detail-content">
+                            <p>Khô mắt là sự rối loạn của màng phim nước mắt (do nước mắt giảm tiết hoặc bốc hơi quá
+                                mức) gây tổn hại bề mặt nhãn cầu. Thuốc nhỏ mắt - V.Rohto Dryeye chứa
+                                Hydroxyethylcellulose (HEC) hoạt chất giúp tăng cường độ nhờn, ngăn ngừa thành phần nước
+                                trong nước mắt bốc hơi, duy trì độ ẩm cho mắt. V.Rohto Dryeye giúp bạn chăm sóc đôi mắt
+                                hằng ngày với các đặc tính:
+                            <p> Bổ sung nước mắt nhân tạo để tạo độ ẩm cần thiết cho mắt khô.</p>
+                            <p> Làm dịu bề mặt giác mạc.</p>
+                            <p> Không chứa thành phần bảo quản.</p>.
+                        </div>
                     </div>
                 </div>
-            </article>
-            <aside>
-                
-                <ul class="vmenu">
-                    <li><a href="#">Máy tính xách tay</a></li>
-                    <li><a href="#">Điện thoại di động</a></li>
-                    <li><a href="#">Máy quay phim</a></li>
-                    <li><a href="#">Máy chụp ảnh</a></li>
-                    <li><a href="#">Máy chụp ảnh</a></li>
-                    <li><a href="#">Máy chụp ảnh</a></li>
-                    <li><a href="#">Máy chụp ảnh</a></li>
-                    <li><a href="#">Máy chụp ảnh</a></li>
-                </ul>
-                <br>
-                <div id="anh">
-                    <a href="video.html" target="video"><img src="image/ribi.jpb" width="250px" alt=""></a>
-                    <a href="video1.html" target="video"><img src="cgk.jpg" width="280px" alt=""></a>
-                    <img src="tt.jpg" width="280px" alt="">
-                </div>
-            </aside>
+            <div class="fb-comments" data-href="https://ddthuong.github.io/truchuongg/" data-width="500" data-numposts="2"></div>
+        </article>
+        <aside>
 
-            <footer>FPT Polytechnic @ 2021 by Đặng Đào Trúc Hương .</footer>
+            <ul class="vmenu">
+                <li><a href="#">Tra cứu hóa đơn điện tử</a></li>
+                <li><a href="#">Mã Qr Code</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">feedback</a></li>
+                <li><a href="#">Nghe chuyên gia tư vấn </a></li>
+                <li><a href="#">Thông tin cần biết</a></li>
+            </ul>
+            <br>
+            <div id="anh">
+                <a href="video.html" target="video"><img src="image/ribi.jpb" width="250px" alt=""></a>
+                <a href="video1.html" target="video"><img src="cgk.jpg" width="280px" alt=""></a>
+                <img src="tt.jpg" width="280px" alt="">
+            </div>
+        </aside>
+
+        <footer>FPT Polytechnic @ 2021 by Đặng Đào Trúc Hương .</footer>
     </div>
 </body>
+
 </html>
